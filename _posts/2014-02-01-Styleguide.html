@@ -1,0 +1,108 @@
+---
+layout: case-study
+title: Style Guide
+permalink: /styleguide
+class: base
+summary: Base Layout & Style Guide
+challenge: This is a base template for case studies in the portfolio to create a general grid & system.
+roles: [Research & Ideation, UX Design, Front End Development]
+color: blue
+image-index: "http://www.srugulo.info/wp-content/uploads/2013/12/cute-unicorns-nvendyi3.jpg"
+image-bg: "http://www.srugulo.info/wp-content/uploads/2013/12/cute-unicorns-nvendyi3.jpg"
+image-top: "http://placehold.it/700x600"
+---
+
+<script src="../js/vendor/highlight.pack.js"></script>
+<script>
+	$(document).ready(function() {
+		$('pre code').each(function(i, e) {hljs.highlightBlock(e)});
+	});
+</script>
+<link rel="stylesheet" href="http://yandex.st/highlightjs/8.0/styles/zenburn.min.css">
+
+<h2>Color Scheme</h2>
+<ul class="color-list center">
+	<li class="color-box tomato"></li>
+	<li class="color-box cornflowerblue"></li>
+	<li class="color-box gold"></li>
+	<li class="color-box hotpink"></li>
+</ul>
+<blockquote class="right push"> "Did you know there are over 144 CSS colors? All of the colors I chose are referenced directly by name &mdash; no hex codes needed."</blockquote>
+
+
+<h2>Typography</h2>
+<div class="row type-choices">
+	<section class="type-section--alg half">
+		<h3>Alegreya Small Caps</h3>
+		<div class="lrg">Aa</div>
+		<div class="alpha--lower">abcdefghijklmnopqrstuvwxyz</div>
+		<div class="alpha--upper">abcdefghijklmnopqrstuvwxyz</div>
+		<div class="numbers">1234567890!@#$%^&*(){}[]</div>
+		<small>**the ampersand is Oleo Script SC via <a href="http://www.heydonworks.com/article/font-hacking" target="_blank">this</a> font hack</small>
+	</section>
+	<section class="type-section--open half">
+		<h3>Open Sans</h3>
+		<div class="lrg">Aa</div>
+		<div class="alpha--lower">abcdefghijklmnopqrstuvwxyz</div>
+		<div class="alpha--upper">abcdefghijklmnopqrstuvwxyz</div>
+		<div class="numbers">1234567890!@#$%^&*(){}[]</div>
+	</section>
+</div>
+
+<img src="http://placehold.it/1100x400" alt="">
+
+<h2>Codes</h2>
+<p> I'm using <a href="prettifyjs.com">prettify.js</a> for syntax highlighting! </p>
+<pre class="push-bottom"><code>window.PROOF || (PROOF = {}); //define a namespace (only ONCE) -- I used PROOF for Proofessor
+(function($, window, document, undefined) {
+  var _common = PROOF.common = { //this is your js object
+    init: function() {
+    this.setVars();
+    this.bindEvents();
+  },
+  setVars: function() {
+    // set all variables here
+    this.helloString = "hello" ; // also _common.helloString
+  },
+  bindEvents: function() {
+    // set event listeners for your functions here
+  },
+  // the rest of your functions go here
+  _common.init(); // don't forget to init!
+})(jQuery, window, document);
+</code></pre>
+
+<div class="row">
+<h2 class="right">A Cool Title Here</h2>
+<p class="right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex esse reiciendis eos non perspiciatis magnam beatae ipsa sequi pariatur soluta. Ad, autem nemo earum cumque deserunt excepturi modi architecto omnis. Alias, incidunt, ex, vel totam placeat praesentium hic voluptatem et voluptatum dolores quo sed vitae mollitia <a href="#">This is a Link! </a> consequuntur molestiae odio ipsa!</p>
+</div>
+<blockquote> "Omygosh this is a really interesting block quote that I'm using to emphasize a point or something of that nature."</blockquote>
+
+<img src="http://placehold.it/1500x800" alt="">
+<img  class="js-fadeIn" src="http://placehold.it/1100x500&text=.js-fadeIn" alt="placeholder">
+<img class="center" src="http://placehold.it/800x600&text=800x600+.center" alt="placeholder">
+<blockquote class="right"> Here is another block quote! It's 3:01 AM on a Saturday... I think its time for bed.</blockquote>
+<img class="half-l" src="http://placehold.it/600x600&text=600x600+.half-l" alt="placeholder">
+<img class="half-r" src="http://placehold.it/600x600&text=600x600+.half-r" alt="placeholder">
+
+<div class="row">
+	<img class="right" src="http://placehold.it/550x400&text=550x400+.right" alt="right aligned image">
+	<img class="right" src="http://placehold.it/550x400&text=550x400+.right" alt="right aligned image">
+	<h2>A Cool Title That Wraps</h2>
+	<p><span> This section is within a class called "row"</span>. A block of <code> codes </code>. Ad, autem nemo earum cumque deserunt excepturi modi architecto omnis. Alias, incidunt, ex, vel totam placeat praesentium hic voluptatem et voluptatum dolores quo sed vitae mollitia <a href="#">Link Time! </a> consequuntur molestiae odio ipsa!</p>
+	<a href="#" class="pull-link">I call this a "pull link"</a>
+	
+</div>
+<hr>
+<div class="row">
+	<img class="left" src="http://placehold.it/550x400&text=550x400+.left" alt="left aligned image">
+	<h2>This is Another Title</h2>
+	<p class="clear-max"><span> You need to clear the max-width when you have elements on the right!</span>. Ad, autem nemo earum cumque deserunt excepturi modi architecto omnis. Alias, incidunt, ex, vel totam placeat praesentium hic voluptatem et voluptatum dolores quo sed vitae mollitia <a href="#">Hi Link! </a> consequuntur molestiae odio ipsa!</p>
+</div>
+
+<h2>Last Title</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex esse reiciendis eos non perspiciatis magnam beatae ipsa sequi pariatur soluta. Ad, autem nemo earum cumque deserunt excepturi modi architecto omnis. Alias, incidunt, ex, vel totam placeat praesentium hic voluptatem et voluptatum dolores quo sed vitae mollitia <a href="#">Hi Link! </a> consequuntur molestiae odio ipsa!</p>
+
+<img src="http://placehold.it/1200x800" alt="placeholder">
+
+<blockquote class="push center"> "FUN FACT: This is a blockquote with a class of 'center' & 'push' applied to it."</blockquote>
