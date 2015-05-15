@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="description" content="">
+	<meta charset="UTF-8">
+	<title>  Proofessor |  Una Kravets</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,900|Open+Sans:400italic,400,700,300|Oleo+Script+Swash+Caps:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="../stylesheets/style.css">
+
+	<!-- MOBILE SETTINGS -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="white" />
+
+	<!-- including jquery link in head bc slider size unique to each page, and I have to put it in the post file -->
+	<script src="../js/vendor/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-36758177-1']);
+	  _gaq.push(['_setDomainName', 'unakravets.com']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+
+</head>
+<body>
+
+<div class="menu-section">
+	<div class="menu-section__toggle">
+		<div class="toggle--1"></div>
+		<div class="toggle--2"></div>
+		<div class="toggle--3"></div>
+	</div>
+	<nav>
+		<ul role="navigation" class="hidden">
+			<li><a href="/">Work</a></li>
+			<li><a href="/about.html">About</a></li>
+			<li><a href="mailto:una@ukrave.us?subject=Hello There!&amp;body=Hi Una, so I was looking at your portfolio and...">Contact</a></li>
+			<li><a href="http://blog.unakravets.com" target="_blank">Blog</a></li>
+			<li><a href="http://sketchbook.unakravets.com" target="_blank">Sketchbook</a></li>
+		</ul>
+	</nav>
+</div>
+<header class="cs__intro-section contain-1100 gold">
+	<h1>Proofessor</h1>
+	<h3>Challenge:
+		<span class="marked"> Use the Craft CMS to create a fun web app.</span>
+	</h3>
+	
+	<h3>Client: 
+			<span class="marked">Viget</span>
+		
+	</h3>
+	<h3>Roles: 
+		
+			<span class="marked">Ideation</span>
+		
+			<span class="marked">Front End Development</span>
+		
+	</h3>
+	<div class="cs__intro-bg">
+		<img src="../images/proofessor/bg.jpg" alt="Proofessor background">
+		<div class="shader"></div>
+	</div>
+</header>
+
+<main role="main" class="cs-main proofessor gold">
+	<div class="center-contain">
+		<div class="cs--top-image--container">
+			<img class="cs--top-image" src="../images/proofessor/top.png" alt="Proofessor">
+		</div>
+		<h1 class="cs--inverted">A Drink Mixing Web App</h1>
+	</div>
+	<div class="cs-main__content">
+
+
+		<section class="contain-1100">
+			<script src="../js/vendor/highlight.pack.js"></script>
+<script>
+	$(document).ready(function() {
+		$('pre code').each(function(i, e) {hljs.highlightBlock(e)});
+	});
+</script>
+<link rel="stylesheet" href="http://yandex.st/highlightjs/8.0/styles/zenburn.min.css">
+
+<img src="../images/loading.gif" data-original="../images/proofessor/planning.jpg" alt="intern planning" class="max-half right lazy">
+
+<h2>When You Tell College Kids to Make "Anything"</h2>
+<h3>Viget HQ Intern Team:</h3>
+<p>
+	<span>Jo-Yee Pang</span>: User Experience Design<br>
+	<span>Eli VanAlsburg</span>: Interface Design, Illustration<br>
+	<span>Erica Bond</span>: Project Management<br>
+	<span>Jatin Sharma</span>: Marketing Strategy<br>
+</p><br>
+
+<blockquote class="push max-70 center">We wanted to create <span>something we could use</span> &mdash; something tangible that we could share with others.</blockquote>
+
+
+<div class="row">
+<img class="lazy max-half left" src="../images/loading.gif" data-original="../images/proofessor/proofessor_wave--things.png" alt="the Proofessor">
+<h2 class="clear-max" >How it Works:</h2>
+<p class="clear-max">Select what spirits, liquors, or mixers you have available and would like to use. Then, the available recipe list filters down to fit your selected parameters. You'll have a refined list to select a recipe from and learn how to make it. If you're indecisive like me, simply shake your mobile device, and Proofessor will flip to a random recipe for you. Check out the bottom of this page to try it yourself!</p>
+</div>
+
+<img class="lazy" src="../images/loading.gif" data-original="../images/proofessor/wires.jpg" alt="Wireframes">
+<img class="lazy" src="../images/loading.gif" data-original="../images/proofessor/me-working.jpg" alt="Me Working">
+
+<h2 class="center">Building with Craft</h2>
+	<p class="center">Craft is a beautiful, new custom content management system, created by Expression Engine developers <span>Pixel and Tonic</span>. Version 1.0 was released just a few weeks before Proofessor was conceptualized. Craft lets you create completely customized fields, pages, and forms for clients to have a visual back-end to update their website through, while using <span>Twig</span> as a templating engine to access this data. I wrote about the CMS on my blog <a href="http://blog.unakravets.com/post/53928357108/starting-to-craft">here</a> and about how to set it up from scratch on a Mac <a href="http://blog.unakravets.com/post/58150139083/the-absolute-beginners-guide-to-setting-up-craft-on-mac">here</a>.
+	<br><br>
+	Using Craft enabled the leanest possible approach to building this very information-driven project. After the system was set up, the project manager (Erica) and marketing intern (Jatin) spent time inputting recipes, icons, and fun facts, while the designer (Eli) and I continued to work on the animations and design.</p><br><br><br><br>
+
+<div class="row">
+	<img src="../images/loading.gif" data-original="../images/proofessor/craft-1.png" alt="Craft CMS" class="lazy half-l">
+	<img src="../images/loading.gif" data-original="../images/proofessor/craft-2.png" alt="Craft CMS" class="lazy half-r hide-sm">
+</div>
+
+<img src="../images/loading.gif" data-original="../images/proofessor/logo-shake.gif" alt="proofessor logo" class="lazy center">
+
+<div class="row">
+<img src="../images/loading.gif" data-original="../images/proofessor/bottle-drain.gif" alt="drinks" class="lazy right">
+<h2>It's the Little Things</h2>
+<p>I am definitely a strong believer that the nuances of a project are what make it. I made sure to include touches (in the form of CSS animations, in this case) to just add that little bit of sparkle. The logo mustache wiggles a little on hover, and the bottles flip and gray out when selected (they all flip back when "reset"). 
+
+<br><br>
+But not all of the animations planned actually made it into the production code. Originally I worked on a function to make the recipe count tally up and down upon changes, and the bottles to drain when selected, however I learned to let go of these fun quirks when they became too "expensive" for the browser to handle. I was taught to be a <span>defender of simplicity</span> and understand when to say no.</p>
+
+<blockquote class="center push js-invert">As a front end developers, we often want to say "yes" to everything, but knowing when a task is too expensive <span>(when to say 'no')</span> is an important skill to have.</blockquote>
+</div>
+
+
+
+<div class="row">
+	<img src="../images/proofessor/proofshake1--loading.gif" data-original="../images/proofessor/proofshake1.gif" alt="Phone Shaking" class="half left lazy">
+	<h2>The Proofessor Playground</h2>
+	<p class="clear-max">
+		I learned SO much about Javascript code from this project, and really had a chance to "play around" with different interactive functions. From playing with shaking (left) to reading the recipe count, it was important to be stay organized. The code was re-factored over and over, but turned out to be something I was very proud of: clean, object-oriented, and name spaced. I organized it mostly based on this model:
+	</p>
+<br>
+<br>
+
+<pre><code>window.PROOF || (PROOF = {}); //define a namespace (only ONCE) -- I used PROOF for Proofessor
+(function($, window, document, undefined) {
+  var _common = PROOF.common = { //this is your js object
+    init: function() {
+    this.setVars();
+    this.bindEvents();
+  },
+  setVars: function() {
+    // set all variables here
+    this.helloString = "hello" ; // also _common.helloString
+  },
+  bindEvents: function() {
+    // set event listeners for your functions here
+  },
+  // the rest of your functions go here
+  _common.init(); // don't forget to init!
+})(jQuery, window, document);
+</code></pre>
+
+</div>
+
+<img class="lazy" src="../images/loading.gif" data-original="../images/proofessor/fed-des.jpg" alt="FED + Des Room">
+<img class="lazy" src="../images/loading.gif" data-original="../images/proofessor/all-diffpages.jpg" alt="Proofessor">
+<img class="lazy" src="../images/loading.gif" data-original="../images/proofessor/all-scattered.jpg" alt="Proofessor">
+
+<h2 class="hide-sm center">Try it Yourself:</h2>
+<iframe class="hide-sm center push" src="http://proofessor.co/" height="568px" width="320px" style="display: block" frameborder="0"></iframe>
+
+
+<div class="center-contain">
+<p class="hide-sm caption">(This is an iframe)</p>
+	<a href="http://viget.com/extend/behind-the-scenes-building-proofessor" class="push-top push-bottom center pull-link">Read More 'Behind the Scenes' on Viget's Blog</a>
+</div>
+
+
+		</section>
+	</main>
+
+<div class="pagination-arrows">
+	<ul>
+		
+			<li><a class="icon-arrow-left" href="/fruit-story" title="Last Post: Fruit Story"></a></li>
+		
+
+		
+			<li><a class="icon-arrow-right" href="/edible" title="Next Post: Edible Rebrand"></a></li>
+		
+	</ul>
+</div>
+	<div class="pagination gold">
+		<div class="contain-1100">
+			<div class="left">
+				
+			<a href="/fruit-story" title="Fruit Story">&laquo; Fruit Story</a>
+				
+			</div>
+
+			<div class="right">
+				
+					<a href="/edible" title="next Post:
+		Edible Rebrand">Edible Rebrand &raquo; </a>
+				
+			</div>
+		</div>
+	</div>
+</div> <!-- closes the cs main content -->
+
+<footer role="contentinfo">
+	<ul class="social-icons center">
+		<li><a href="http://twitter.com/una" target="_blank" class="has-tooltip icon-twitter"><span class="tooltip">Twitter</span></a></li>
+		<li><a href="http://dribbble.com/una" target="_blank" class="has-tooltip icon-dribbble"><span class="tooltip">Dribbble</span></a></li>
+		<li><a href="http://github.com/una" target="_blank" class="has-tooltip icon-github2"><span class="tooltip">Github</span></a></li>
+		<li><a href="http://vimeo.com/unakravets" target="_blank" class="has-tooltip icon-vimeo"><span class="tooltip">Vimeo</span></a></li>
+		<li><a href="http://blog.unakravets.com" target="_blank" class="has-tooltip icon-paragraph-left"><span class="tooltip">Blog</span></a></li>
+		<li><a href="http://sketchbook.unakravets.com" target="_blank" class="has-tooltip icon-pencil"><span class="tooltip">Sketchbook</span></a></li>
+		<li><a href="http://codepen.io/unax3" target="_blank" class="has-tooltip icon-codepen"><span class="tooltip">Codepen</span></a></li>
+		<li><a href="http://www.linkedin.com/pub/una-kravets/30/827/a35/" target="_blank" class="has-tooltip icon-linkedin"><span class="tooltip">LinkedIn</span></a></li>
+		<li><a href="mailto:una@ukrave.us?subject=Hello There!&amp;body=Hi Una, so I was looking at your portfolio and..." class="has-tooltip icon-mail2"><span class="tooltip">Email</span></a></li>
+	</ul>
+	<p>&copy; Una Kravets 2014. Made with &hearts; in Jekyll. View the <a href="/styleguide">styleguide</a>, or the <a href="http://github.com/una/portfolio-2014" target="_blank">source code</a>.
+	</p>
+</footer>
+
+</body>
+
+	<script src="../js/vendor/jquery.slides.min.js"></script>
+	<script src="../js/vendor/waypoints.min.js"></script>
+	<script src="../js/vendor/jquery.lazyload.min.js"></script>
+	<script src="../js/scripts.js"></script>
+</html>
+
