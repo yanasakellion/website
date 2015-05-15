@@ -1,0 +1,62 @@
+
+<div class="pagination-arrows">
+	<ul>
+		{% if page.previous.url and page.previous.title != 'Style Guide' and published != "false" %}
+			<li><a class="icon-arrow-left" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"></a></li>
+		{% else %}
+			<li><a class="icon-arrow-left" href="/fruit-story" title="Last Post: Fruit Story"></a></li>
+		{% endif %}
+
+		{% if page.next.url and page.next.title != 'Style Guide' and published != "false" %}
+			<li><a class="icon-arrow-right" href="{{page.next.url}}" title="Next Post: {{page.next.title}}"></a></li>
+		{% else %}
+			<li><a class="icon-arrow-right" href="/proofessor" title="First Post: Proofessor"></a></li>
+		{% endif %}
+	</ul>
+</div>
+	<div class="pagination {{ page.color }}">
+		<div class="contain-1100">
+			<div class="left">
+				{% if page.previous.url and page.previous.title != 'Style Guide' and published != "false" %}
+					<a href="{{page.previous.url}}" title="Previous Post:
+		{{page.previous.title}}">&laquo; {{page.previous.title}}</a>
+				{% else %}
+			<a href="/fruit-story" title="Fruit Story">&laquo; Fruit Story</a>
+				{% endif %}
+			</div>
+
+			<div class="right">
+				{% if page.next.url and page.next.title != 'Style Guide' and published != "false" %}
+					<a href="{{page.next.url}}" title="next Post:
+		{{page.next.title}}">{{page.next.title}} &raquo; </a>
+				{% else %}
+					<a href="/proofessor" title="Proofessor">Proofessor &raquo; </a>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</div> <!-- closes the cs main content -->
+
+<footer role="contentinfo">
+	<ul class="social-icons center">
+		<li><a href="http://twitter.com/una" target="_blank" class="has-tooltip icon-twitter"><span class="tooltip">Twitter</span></a></li>
+		<li><a href="http://dribbble.com/una" target="_blank" class="has-tooltip icon-dribbble"><span class="tooltip">Dribbble</span></a></li>
+		<li><a href="http://github.com/una" target="_blank" class="has-tooltip icon-github2"><span class="tooltip">Github</span></a></li>
+		<li><a href="http://vimeo.com/unakravets" target="_blank" class="has-tooltip icon-vimeo"><span class="tooltip">Vimeo</span></a></li>
+		<li><a href="http://blog.unakravets.com" target="_blank" class="has-tooltip icon-paragraph-left"><span class="tooltip">Blog</span></a></li>
+		<li><a href="http://sketchbook.unakravets.com" target="_blank" class="has-tooltip icon-pencil"><span class="tooltip">Sketchbook</span></a></li>
+		<li><a href="http://codepen.io/unax3" target="_blank" class="has-tooltip icon-codepen"><span class="tooltip">Codepen</span></a></li>
+		<li><a href="http://www.linkedin.com/pub/una-kravets/30/827/a35/" target="_blank" class="has-tooltip icon-linkedin"><span class="tooltip">LinkedIn</span></a></li>
+		<li><a href="mailto:una@ukrave.us?subject=Hello There!&amp;body=Hi Una, so I was looking at your portfolio and..." class="has-tooltip icon-mail2"><span class="tooltip">Email</span></a></li>
+	</ul>
+	<p>&copy; Una Kravets 2014. Made with &hearts; in Jekyll. View the <a href="/styleguide">styleguide</a>, or the <a href="http://github.com/una/portfolio-2014" target="_blank">source code</a>.
+	</p>
+</footer>
+
+</body>
+
+	<script src="../js/vendor/jquery.slides.min.js"></script>
+	<script src="../js/vendor/waypoints.min.js"></script>
+	<script src="../js/vendor/jquery.lazyload.min.js"></script>
+	<script src="../js/scripts.js"></script>
+</html>

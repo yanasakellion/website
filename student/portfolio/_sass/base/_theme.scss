@@ -1,0 +1,24 @@
+%orange,
+.orange {
+	@include color-specific($color--orange);
+}
+
+%gold,
+.gold {
+	@include color-specific($color-gold);
+}
+
+%blue,
+.blue {
+	@include color-specific($color--blue);
+}
+
+%hotpink,
+.hotpink {
+	@include color-specific($color--hotpink);
+}
+
+%white,
+.white {
+	color: white;
+}
