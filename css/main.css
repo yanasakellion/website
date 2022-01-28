@@ -12,7 +12,7 @@ body {
   border-width: 1px;
   border-color: black;*/
 }
-	
+
 
 /* Typography Elements  ================================== */
 
@@ -54,16 +54,17 @@ h1 {
   text-align: left;
   margin-left: 10px;
   padding: 10px 0px;
-  font-family: 'Righteous', cursive;
+font-family: 'Averia Serif Libre', cursive;
   font-size: 57pt;
   text-transform: uppercase;
   width: 450px;
   line-height: 56pt;
   color: #fde647;
   text-shadow:2px 2px 4px #868686;
-} 
+}
 
-h3.onbluetop {font-family: 'Righteous', cursive;
+h3.onbluetop {
+  font-family: 'Averia Serif Libre', cursive;
   font-size: 30pt;
   text-transform: uppercase;
   line-height: 35pt;
@@ -75,7 +76,7 @@ h3.onbluetop {font-family: 'Righteous', cursive;
 /* About Section */
 
 h2.onwhite{
-  font-family: 'Righteous', cursive;
+font-family: 'Averia Serif Libre', cursive;
   font-size: 57pt;
   text-transform: uppercase;
   width: 450px;
@@ -86,7 +87,7 @@ h2.onwhite{
 }
 
 h3.onwhite{
-  font-family: 'Righteous', cursive;
+font-family: 'Averia Serif Libre', cursive;
   font-size: 30pt;
   text-transform: uppercase;
   line-height: 35pt;
@@ -99,7 +100,7 @@ h3.onwhite{
 /* Continue/Pre-Reqs Section */
 
 h3.onblue{
-  font-family: 'Righteous', cursive;
+font-family: 'Averia Serif Libre', cursive;
   font-size: 30pt;
   text-transform: uppercase;
   line-height: 35pt;
@@ -122,7 +123,7 @@ h4.onblue{
 /* Lists */
 
 h5.onwhite{
-  font-family: 'Righteous', cursive;
+font-family: 'Averia Serif Libre', cursive;
   font-size: 57pt;
   text-transform: uppercase;
   line-height: 59pt;
@@ -134,7 +135,7 @@ h5.onwhite{
 /* OTHER */
 
 ul{}
-ul li{font-family: 'Calibri', cursive;color: #fde647;  
+ul li{font-family: 'Calibri', cursive;color: #fde647;
 font-size: 20pt; line-height: 21pt;}
 blockquote{}
 
@@ -262,7 +263,7 @@ div.greenbg{clear: both;background-color: green; width: 100%; padding-bottom: 60
 
 .grid_12 {
 
- 
+
  /* border-style: solid; border-width: 1px;
   border-color: black;*/
 }
@@ -272,4 +273,3 @@ div.first{margin-left: 10px;}
 /* Images  ================================== */
 figure{}
 img{}
-
