@@ -1,0 +1,275 @@
+/* Main Styles  ================================== */
+
+html{}
+body {
+  background: #fff;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  min-width: 960px;
+  clear: both;
+  /*border-style: solid;
+  border-width: 1px;
+  border-color: black;*/
+}
+
+
+/* Typography Elements  ================================== */
+
+
+/* MAIN WHITE */
+
+p.whitemain{font-family: 'Calibri', cursive;
+  font-size: 16pt;
+  line-height: 25pt;
+  color: #000;
+  padding-bottom: 16px}
+
+
+
+
+/* MAIN BLUE */
+
+p.bluemain{font-family: 'Calibri', cursive;
+  font-size: 16pt;
+  line-height: 25pt;
+  color: #fff;
+  padding-bottom: 16px}
+
+p.bluemainh1{font-family: 'Calibri', cursive;
+  font-size: 16pt;
+  line-height: 25pt;
+  color: #fff;
+  padding-bottom: 16px}
+
+
+p.emphasisontop{display:inline;font-size:18px; color: yellow;display: inline; padding-left: 5px;}
+
+
+
+/* HEADING */
+
+h1 {
+  padding-top: 20px;
+  text-align: left;
+  margin-left: 10px;
+  padding: 10px 0px;
+font-family: 'Averia Serif Libre', cursive;
+  font-size: 57pt;
+  text-transform: uppercase;
+  width: 450px;
+  line-height: 56pt;
+  color: #fde647;
+  text-shadow:2px 2px 4px #868686;
+}
+
+h3.onbluetop {
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 30pt;
+  text-transform: uppercase;
+  line-height: 35pt;
+  color: #fff;
+  text-shadow:2px 2px 4px #868686;
+  display:inline
+}
+
+/* About Section */
+
+h2.onwhite{
+font-family: 'Averia Serif Libre', cursive;
+  font-size: 57pt;
+  text-transform: uppercase;
+  width: 450px;
+  line-height: 56pt;
+  color: #000;
+  padding-bottom: 30px;
+  margin-left: 10px;
+}
+
+h3.onwhite{
+font-family: 'Averia Serif Libre', cursive;
+  font-size: 30pt;
+  text-transform: uppercase;
+  line-height: 35pt;
+  color: #000;
+  padding-bottom: 30px;
+}
+
+
+
+/* Continue/Pre-Reqs Section */
+
+h3.onblue{
+font-family: 'Averia Serif Libre', cursive;
+  font-size: 30pt;
+  text-transform: uppercase;
+  line-height: 35pt;
+  color: #fde647;
+  padding-bottom: 30px;
+  font-weight: normal;
+}
+
+h4.onblue{
+  font-family: 'Calibri';
+  font-size: 30pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 35pt;
+  color: #fff;
+  padding-bottom: 30px;
+  color: #fde647;
+}
+
+/* Lists */
+
+h5.onwhite{
+font-family: 'Averia Serif Libre', cursive;
+  font-size: 57pt;
+  text-transform: uppercase;
+  line-height: 59pt;
+  color: #000;
+}
+
+
+
+/* OTHER */
+
+ul{}
+ul li{font-family: 'Calibri', cursive;color: #fde647;
+font-size: 20pt; line-height: 21pt;}
+blockquote{}
+
+span{}
+
+em{}
+strong{}
+
+details{}
+summary{}
+
+figcaption{}
+
+
+
+/* Links ================================== */
+a:link {}     	/* unvisited link */
+a:visited {} 	/* visited link */
+a:hover {}  	/* mouse over link */
+a:active {}  	/* selected link */
+
+
+
+/* Layout Elements ================================== */
+
+header{}
+nav{}
+section{}
+article{}
+aside{}
+footer{}
+div{}
+div.bluebg{-moz-box-shadow: inset 0px 10px 10px -7px rgba(0,0,0,0.18),
+        inset 0px -10px 10px -7px rgba(0,0,0,0.18);
+        -webkit-box-shadow: inset 0px 10px 10px -7px rgba(0,0,0,0.18),
+        inset 0px -10px 10px -7px rgba(0,0,0,0.18);
+        box-shadow: inset 0px 10px 10px -7px rgba(0,0,0,0.18),
+        inset 0px -10px 10px -7px rgba(0,0,0,0.18);
+        clear: both;background-color: #33ccff; width: 100%;}
+div.bluebg2{-moz-box-shadow: inset 0px 10px 10px -7px rgba(0,0,0,0.18),
+        inset 0px -10px 10px -7px rgba(0,0,0,0.18);
+        -webkit-box-shadow: inset 0px 10px 10px -7px rgba(0,0,0,0.18),
+        inset 0px -10px 10px -7px rgba(0,0,0,0.18);
+        box-shadow: inset 0px 10px 10px -7px rgba(0,0,0,0.18),
+        inset 0px -10px 10px -7px rgba(0,0,0,0.18);
+        clear: both;background-color: #33ccff; width: 100%; height: 500px;}
+div.whitebg{clear: both;background-color: #fff; width: 100%; padding-bottom: 60px;}
+div.greenbg{clear: both;background-color: green; width: 100%; padding-bottom: 60px;}
+
+
+
+/* 960 Grid Organization ================================== */
+
+.container_12,
+.container_16 {
+  background-repeat: repeat-y;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  width: 960px;
+  padding-bottom: 50px;
+ /* border-style: solid; border-width: 1px;
+  border-color: black;*/
+}
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12,
+.grid_13,
+.grid_14,
+.grid_15,
+.grid_16 {
+  display: inline;
+/*  float: left; */
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.grid_2{float:left;width: 60px; padding-bottom: 45px; text-align: center; padding-right: 30px;}
+.grid_3{float:left;width: 300px; padding-bottom: 45px; padding-right: 30px;}
+.grid_4{float:left;width: 170px; padding-bottom: 45px; padding-right: 30px; text-align: right;}
+.grid_41{float:left;width: 230px; padding-bottom: 45px; padding-right: 30px;}
+
+.grid_5{float:left;width: 460px; padding-bottom: 45px;}
+.grid_6{float: left; width: 460px; padding-bottom: 45px; padding-left: 10px; padding-right: 10px;}
+.grid_7{float:left;width: 530px;}
+.grid_8{float: left; width: 220px; padding-bottom: 45px; text-align: center;}
+
+.push_1, .pull_1,
+.push_2, .pull_2,
+.push_3, .pull_3,
+.push_4, .pull_4,
+.push_5, .pull_5,
+.push_6, .pull_6,
+.push_7, .pull_7,
+.push_8, .pull_8,
+.push_9, .pull_9,
+.push_10, .pull_10,
+.push_11, .pull_11,
+.push_12, .pull_12,
+.push_13, .pull_13,
+.push_14, .pull_14,
+.push_15, .pull_15 {
+  position: relative;
+}
+
+
+
+
+.container_12 .grid_11 {
+    width: 960px;
+
+  /*  border-style: solid; border-width: 1px;
+  border-color: black;*/
+}
+
+.grid_12 {
+
+
+ /* border-style: solid; border-width: 1px;
+  border-color: black;*/
+}
+
+div.first{margin-left: 10px;}
+
+/* Images  ================================== */
+figure{}
+img{}
